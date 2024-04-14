@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: hsl(47, 88%, 63%);
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+}
+.container {
+  width: 300px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 8px 8px;
+  border-radius: 1.5rem;
+  height: 30rem;
+  max-height: 100vdh;
+  border: 3px solid hsl(0, 0%, 50%);
+}
+input,
+.image,
+p,
+h1 {
+  margin: 10px;
+}
+
+.illustration {
+  margin: 10px;
+  width: 280px;
+  border-radius: 1rem;
+}
+
+input {
+  background: hsl(47, 88%, 63%);
+  margin-top: 0px;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-size: 14px;
+  font-weight: 800;
+  font-family: figtree;
+  padding: 8px 8px;
+}
+.first {
+  font-size: 16px;
+  font-family: figtree;
+  color: black;
+  font-weight: 400;
+  margin-top: 5px;
+}
+h1 {
+  font-size: 20px;
+  font-weight: 800;
+  font-family: figtree;
+}
+
+h1:hover {
+  cursor: pointer;
+  color: hsl(47, 88%, 63%);
+}
+
+.second {
+  font-size: 16px;
+  font-family: figtree;
+  font-weight: 400px;
+  color: hsl(0, 0%, 50%);
+}
+.foot {
+  display: flex;
+}
+.image {
+  text-align: left;
+  margin-right: 0px;
+}
+.asset {
+  height: 50px;
+}
+.text {
+  margin-top: 18px;
+  margin-left: 0px;
+}
+.last {
+  font-size: 16px;
+  font-family: figtree;
+  font-weight: 800;
+  color: black;
+}
